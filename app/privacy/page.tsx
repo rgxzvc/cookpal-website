@@ -47,6 +47,19 @@ export default function PrivacyPage() {
           </ul>
 
           <h3 className="font-display text-xl font-semibold text-neutral-900 mt-6 mb-3">
+            Third-Party Platform Imports
+          </h3>
+          <p className="text-neutral-700 mb-3">
+            When you import recipes from third-party platforms (websites, TikTok, Instagram, YouTube):
+          </p>
+          <ul className="list-disc pl-6 space-y-2 text-neutral-700">
+            <li>We access only the publicly available content from the URL you provide</li>
+            <li>We do not access your social media accounts, login credentials, or private data from these platforms</li>
+            <li>We do not share your imported content back to these platforms</li>
+            <li>The URLs you import are stored to allow re-fetching and attribution to original sources</li>
+          </ul>
+
+          <h3 className="font-display text-xl font-semibold text-neutral-900 mt-6 mb-3">
             Usage Analytics
           </h3>
           <p className="text-neutral-700">

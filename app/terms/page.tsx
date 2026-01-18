@@ -44,7 +44,22 @@ export default function TermsPage() {
           </ul>
 
           <h2 className="font-display text-2xl font-bold text-neutral-900 mt-10 mb-4">
-            3. AI-Generated Content Disclaimer
+            3. Third-Party Content Sources
+          </h2>
+          <p className="text-neutral-700 mb-4">
+            CookPal can import recipes from third-party platforms including websites, TikTok, Instagram, and YouTube. Please note:
+          </p>
+          <ul className="list-disc pl-6 space-y-2 text-neutral-700">
+            <li>We are not affiliated with, endorsed by, or sponsored by any of these platforms</li>
+            <li>You are responsible for complying with those platforms&apos; terms of service</li>
+            <li>Imported content is for <strong>personal, non-commercial use only</strong></li>
+            <li>We do not guarantee continued ability to import from any third-party source, as platforms may change their policies or technical implementations</li>
+            <li>Recipe content belongs to the original creators; CookPal simply helps you organize it for personal use</li>
+            <li>If a content creator or platform requests removal of their content from our service, we will comply</li>
+          </ul>
+
+          <h2 className="font-display text-2xl font-bold text-neutral-900 mt-10 mb-4">
+            4. AI-Generated Content Disclaimer
           </h2>
           <p className="text-neutral-700 mb-4">
             CookPal uses artificial intelligence to:
@@ -67,7 +82,7 @@ export default function TermsPage() {
           </p>
 
           <h2 className="font-display text-2xl font-bold text-neutral-900 mt-10 mb-4">
-            4. Subscriptions and Billing
+            5. Subscriptions and Billing
           </h2>
           
           <h3 className="font-display text-xl font-semibold text-neutral-900 mt-6 mb-3">
@@ -109,7 +124,7 @@ export default function TermsPage() {
           </ul>
 
           <h2 className="font-display text-2xl font-bold text-neutral-900 mt-10 mb-4">
-            5. User Conduct
+            6. User Conduct
           </h2>
           <p className="text-neutral-700 mb-4">
             You agree not to:
@@ -125,17 +140,20 @@ export default function TermsPage() {
           </ul>
 
           <h2 className="font-display text-2xl font-bold text-neutral-900 mt-10 mb-4">
-            6. Intellectual Property
+            7. Intellectual Property
           </h2>
           <p className="text-neutral-700 mb-4">
             <strong>Our Content:</strong> The CookPal app, including its design, code, and branding, is owned by Banana Bread Labs and protected by intellectual property laws.
           </p>
+          <p className="text-neutral-700 mb-4">
+            <strong>Your Content:</strong> You retain ownership of recipes you create. By using CookPal, you grant us a license to store and display your content within the service.
+          </p>
           <p className="text-neutral-700">
-            <strong>Your Content:</strong> You retain ownership of recipes you create or import. By using CookPal, you grant us a license to store and display your content within the service.
+            <strong>Third-Party Content:</strong> Recipes imported from third-party sources (websites, TikTok, Instagram, YouTube, etc.) remain the intellectual property of their original creators. CookPal facilitates personal organization of this content and does not claim ownership of imported recipes. You may only use imported content for personal, non-commercial purposes.
           </p>
 
           <h2 className="font-display text-2xl font-bold text-neutral-900 mt-10 mb-4">
-            7. Limitation of Liability
+            8. Limitation of Liability
           </h2>
           <p className="text-neutral-700 mb-4">
             TO THE MAXIMUM EXTENT PERMITTED BY LAW:
@@ -149,7 +167,7 @@ export default function TermsPage() {
           </ul>
 
           <h2 className="font-display text-2xl font-bold text-neutral-900 mt-10 mb-4">
-            8. Termination
+            9. Termination
           </h2>
           <p className="text-neutral-700 mb-4">
             <strong>By You:</strong> You may stop using CookPal at any time. To delete your account, contact us or use the in-app account deletion feature.
@@ -159,21 +177,21 @@ export default function TermsPage() {
           </p>
 
           <h2 className="font-display text-2xl font-bold text-neutral-900 mt-10 mb-4">
-            9. Changes to Terms
+            10. Changes to Terms
           </h2>
           <p className="text-neutral-700">
             We may update these Terms from time to time. We will notify you of significant changes through the app or via email. Continued use of CookPal after changes constitutes acceptance of the updated Terms. If you disagree with changes, you should stop using the service.
           </p>
 
           <h2 className="font-display text-2xl font-bold text-neutral-900 mt-10 mb-4">
-            10. Governing Law
+            11. Governing Law
           </h2>
           <p className="text-neutral-700">
             These Terms are governed by the laws of the United States. Any disputes will be resolved in the courts of the United States.
           </p>
 
           <h2 className="font-display text-2xl font-bold text-neutral-900 mt-10 mb-4">
-            11. Contact Us
+            12. Contact Us
           </h2>
           <p className="text-neutral-700">
             If you have any questions about these Terms, please contact us:
