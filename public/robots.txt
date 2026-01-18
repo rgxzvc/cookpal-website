@@ -1,0 +1,11 @@
+# CookPal Robots.txt
+# https://cookpal.app
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://cookpal.app/sitemap.xml
+
+# Disallow API routes
+Disallow: /api/

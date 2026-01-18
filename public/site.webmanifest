@@ -1,0 +1,16 @@
+{
+  "name": "CookPal",
+  "short_name": "CookPal",
+  "description": "Turn any recipe link into a clean, cookable recipe card",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFDFB",
+  "theme_color": "#F59E0B",
+  "icons": [
+    {
+      "src": "/cookpal-icon.png",
+      "sizes": "302x296",
+      "type": "image/png"
+    }
+  ]
+}
