@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Script from 'next/script'
 import { Section } from '@/components/ui/Section'
 import { Card } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
@@ -49,11 +50,32 @@ const faqs = [
   },
 ]
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+}
+
 export default function SupportPage() {
   const [openIndex, setOpenIndex] = useState<number | null>(null)
 
   return (
-    <div className="pt-24">
+    <>
+      <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
+        }}
+      />
+      <div className="pt-24">
       <Section padding="lg">
         <div className="text-center mb-16">
           <Badge variant="primary" className="mb-4">Support</Badge>
@@ -161,5 +183,6 @@ export default function SupportPage() {
         </div>
       </Section>
     </div>
+    </>
   )
 }

@@ -88,6 +88,40 @@ export const metadata: Metadata = {
   manifest: '/site.webmanifest',
 }
 
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Banana Bread Labs',
+  url: 'https://cookpal.app',
+  logo: 'https://cookpal.app/favicon.png',
+  sameAs: ['https://twitter.com/cookpalapp'],
+  contactPoint: {
+    '@type': 'ContactPoint',
+    email: 'bananabreadlabs@gmail.com',
+    contactType: 'customer support',
+  },
+}
+
+const softwareAppSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: 'CookPal',
+  operatingSystem: 'iOS',
+  applicationCategory: 'LifestyleApplication',
+  description:
+    'Import recipes from any website, TikTok, Instagram, or YouTube into clean, easy-to-read recipe cards. Scale servings, convert units, and cook distraction-free.',
+  offers: {
+    '@type': 'Offer',
+    price: '0',
+    priceCurrency: 'USD',
+  },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '5',
+    ratingCount: '1',
+  },
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -95,6 +129,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationSchema),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(softwareAppSchema),
+          }}
+        />
+      </head>
       <body className="font-sans">
         <Header />
         <main className="min-h-screen">{children}</main>
