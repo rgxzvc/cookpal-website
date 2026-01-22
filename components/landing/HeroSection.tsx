@@ -28,7 +28,8 @@ export function HeroSection() {
             </p>
 
             {/* Platform icons */}
-            <div className="flex items-center justify-center lg:justify-start gap-4 mb-8">
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-4 mb-8">
+              <span className="text-sm font-medium text-neutral-500">Import from</span>
               <div className="flex items-center gap-2 px-3 py-1.5 bg-neutral-100 rounded-full">
                 <WebIcon className="w-4 h-4 text-neutral-600" />
                 <span className="text-sm font-medium text-neutral-600">Web</span>
