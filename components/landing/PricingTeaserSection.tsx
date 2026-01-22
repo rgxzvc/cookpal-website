@@ -35,7 +35,7 @@ export function PricingTeaserSection() {
           <ul className="space-y-3 mb-8">
             <li className="flex items-center gap-3 text-neutral-700">
               <Check className="w-5 h-5 text-primary-500 flex-shrink-0" />
-              5 recipe imports
+              20 recipe imports
             </li>
             <li className="flex items-center gap-3 text-neutral-700">
               <Check className="w-5 h-5 text-primary-500 flex-shrink-0" />

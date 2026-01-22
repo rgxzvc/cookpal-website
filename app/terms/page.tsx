@@ -89,7 +89,7 @@ export default function TermsPage() {
             Free Tier
           </h3>
           <ul className="list-disc pl-6 space-y-2 text-neutral-700">
-            <li>5 total recipe imports</li>
+            <li>20 total recipe imports</li>
             <li>Access to all core features</li>
             <li>No credit card required</li>
           </ul>

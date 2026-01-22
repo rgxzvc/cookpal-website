@@ -26,7 +26,7 @@ const faqs = [
   {
     question: 'What counts as a "recipe import"?',
     answer:
-      "Each time you import a new recipe from a URL, photo, text, or social link, it counts as one import. Free users get 5 total imports. Viewing, scaling, or using cook mode on saved recipes doesn't count against your limit.",
+      "Each time you import a new recipe from a URL, photo, text, or social link, it counts as one import. Free users get 20 total imports. Viewing, scaling, or using cook mode on saved recipes doesn't count against your limit.",
   },
   {
     question: 'How reliable is importing from social media (YouTube, Instagram, etc.)?',
