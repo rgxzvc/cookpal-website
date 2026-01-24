@@ -8,11 +8,11 @@ import { Check, X, Sparkles } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Pricing',
   description:
-    'CookPal pricing plans. Start free with 20 imports, or go Pro for unlimited recipes and AI-powered recipe ideas.',
+    'CookPal pricing plans. Start free with 10 imports, or go Pro for unlimited recipes and AI-powered recipe ideas.',
 }
 
 const features = [
-  { name: 'Recipe imports', free: '20 total', pro: 'Unlimited' },
+  { name: 'Recipe imports', free: '10 total', pro: 'Unlimited' },
   { name: 'URL import', free: true, pro: true },
   { name: 'Photo import (OCR)', free: true, pro: true },
   { name: 'Text import', free: true, pro: true },
@@ -37,7 +37,7 @@ export default function PricingPage() {
             Simple, fair pricing
           </h1>
           <p className="text-neutral-600 text-lg max-w-2xl mx-auto">
-            Start free with 20 recipe imports. Upgrade to Pro for unlimited imports
+            Start free with 10 recipe imports. Upgrade to Pro for unlimited imports
             and AI-powered recipe ideas.
           </p>
         </div>
@@ -64,7 +64,7 @@ export default function PricingPage() {
               <li className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-primary-500 flex-shrink-0 mt-0.5" />
                 <span className="text-neutral-700">
-                  <strong>20 recipe imports</strong> total
+                  <strong>10 recipe imports</strong> total
                 </span>
               </li>
               <li className="flex items-start gap-3">
