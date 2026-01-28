@@ -34,9 +34,9 @@ export function HeroSection() {
                 <WebIcon className="w-4 h-4 text-neutral-600" />
                 <span className="text-sm font-medium text-neutral-600">Web</span>
               </div>
-              <div className="flex items-center gap-2 px-3 py-1.5 bg-neutral-100 rounded-full">
-                <TikTokIcon className="w-4 h-4 text-neutral-900" />
-                <span className="text-sm font-medium text-neutral-600">TikTok</span>
+              <div className="flex items-center gap-2 px-3 py-1.5 bg-neutral-900 rounded-full">
+                <TikTokIcon className="w-4 h-4 text-white" />
+                <span className="text-sm font-medium text-white">TikTok</span>
               </div>
               <div className="flex items-center gap-2 px-3 py-1.5 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full">
                 <InstagramIcon className="w-4 h-4 text-white" />
