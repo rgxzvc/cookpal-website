@@ -50,7 +50,7 @@ export function HeroSection() {
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
               <Button
-                href="https://apps.apple.com/app/cookpal"
+                href="https://apps.apple.com/us/app/cookpal-recipe-organizer/id6757517561"
                 size="lg"
               >
                 Download on App Store

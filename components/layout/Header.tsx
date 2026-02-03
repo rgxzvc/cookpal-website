@@ -15,7 +15,7 @@ const navLinks = [
   { href: '/support', label: 'Support' },
 ]
 
-const APP_STORE_URL = 'https://apps.apple.com/app/cookpal'
+const APP_STORE_URL = 'https://apps.apple.com/us/app/cookpal-recipe-organizer/id6757517561'
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)

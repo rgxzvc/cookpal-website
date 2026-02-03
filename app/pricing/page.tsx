@@ -87,7 +87,7 @@ export default function PricingPage() {
               </li>
             </ul>
 
-          <Button variant="outline" fullWidth href="https://apps.apple.com/app/cookpal">
+          <Button variant="outline" fullWidth href="https://apps.apple.com/us/app/cookpal-recipe-organizer/id6757517561">
             Download Free
           </Button>
           </Card>
@@ -151,7 +151,7 @@ export default function PricingPage() {
               </li>
             </ul>
 
-            <Button fullWidth href="https://apps.apple.com/app/cookpal">
+            <Button fullWidth href="https://apps.apple.com/us/app/cookpal-recipe-organizer/id6757517561">
               Download & Upgrade
             </Button>
 

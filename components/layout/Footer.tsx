@@ -7,7 +7,7 @@ const footerLinks = {
     { href: '/#features', label: 'Features' },
     { href: '/#how-it-works', label: 'How It Works' },
     { href: '/pricing', label: 'Pricing' },
-    { href: 'https://apps.apple.com/app/cookpal', label: 'Download App' },
+    { href: 'https://apps.apple.com/us/app/cookpal-recipe-organizer/id6757517561', label: 'Download App' },
   ],
   support: [
     { href: '/support', label: 'FAQ' },
